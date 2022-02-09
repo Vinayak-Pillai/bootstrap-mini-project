@@ -1,0 +1,877 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <title>iPortfolio</title>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="font-awesome-4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="aos-master/dist/aos.css">
+    <script src="aos-master/dist/aos.js"></script>
+</head>
+<body class="d-xl-flex" data-bs-spy="scroll" data-bs-target="#sideNavbar">
+    <nav id="sideNavbar" class="navbar navbar-dark bg-dark flex-column align-items-stretch p-3 d-none d-xl-flex side_navbar">
+        <div class="profile">
+            <img src="Images/profile-img.jpg" alt="" class="img-fluid rounded-circle sc_img d-block mx-auto">
+            <p class="img_name text-center">Alex Smith</p>
+            <div class="img_icons text-white text-center">
+                <i class="fa fa-twitter rounded-circle p-2 me-2"></i>
+                <i class="fa fa-facebook rounded-circle p-2 me-2"></i>
+                <i class="fa fa-instagram rounded-circle p-2 me-2"></i>
+                <i class="fa fa-skype rounded-circle me-2 p-2"></i>
+                <i class="fa fa-linkedin rounded-circle me-2 p-2"></i>
+            </div>
+            <nav class="nav nav-pills flex-column mt-3">
+                <a href="#Home" class="nav-link text-secondary"><i class="fa fa-home pe-2"></i> Home</a>
+                <a href="#About" class="nav-link text-secondary"><i class="fa fa-user-o pe-2"></i> About</a>
+                <a href="#Resume" class="nav-link text-secondary"><i class="fa fa-sticky-note pe-2"></i> Resume</a>
+                <a href="#Portfolio" class="nav-link text-secondary"><i class="fa fa-book pe-2"></i> Portfolio</a>
+                <a href="#Services" class="nav-link text-secondary"><i class="fa fa-server pe-2"></i> Services</a>
+                <a href="#Contact" class="nav-link text-secondary"><i class="fa fa-envelope pe-2"></i> Contact</a>
+            </nav>
+        </div>   
+    </nav>
+    <div class="main_container">
+        <div class="home_page" id="Home">
+            <div class="homepage_text d-flex align-items-center justify-content-center">
+                <div class="hp_items">
+                    <h1 class="hp_name mb-1 ">Alex Smith</h1>
+                    <p class="hp_title">I'm Developer</p>
+                </div>
+            </div>
+        </div>
+        <div class="about_page p-3" id="About">
+            <div class="abouts-section-1 p-3">
+                <p class="about_title h3">About</p>
+                <div class="line"></div>
+                <div class="about_text mt-2">Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum
+                    quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia
+                    fugiat sit in iste officiis commodi
+                    quidem hic quas.</div>
+                <div class="about_page_flex d-lg-flex">
+                    <div class="about_page_img py-lg-3" data-aos="fade-right" data-aos-duration="8000">
+                        <img src="Images/profile-img.jpg" alt="" class="img-fluid py-3 py-lg-0">
+                    </div>
+                    <div class="about_job pt-2 col-lg-8 p-lg-3" data-aos="fade-left">
+                        <p class="about_title h4">UI/UX Designer & Developer.</p>
+                        <p class="about_italic_text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                            incididunt ut labore et dolore magna aliqua.</p>
+                        <div class="about_profiles d-md-flex justify-content-lg-between col-lg-10">
+                            <div class="ap1">
+                                <p class="list_item"><i class="fa fa-angle-right pe-2"></i><span class="ap1_span">Birthday:</span> 1 May
+                                    1995</p>
+                                <p class="list_item"><i class="fa fa-angle-right pe-2"></i><span class="ap1_span">Website:</span>
+                                    www.example.com</p>
+                                <p class="list_item"><i class="fa fa-angle-right pe-2"></i><span class="ap1_span">Phone:</span> +123 456
+                                    7890</p>
+                                <p class="list_item"><i class="fa fa-angle-right pe-2"></i><span class="ap1_span">City:</span> New York,
+                                    USA</p>
+                            </div>
+                            <div class="ap2">
+                                <p class="list_item"><i class="fa fa-angle-right pe-2"></i><span class="ap1_span">Age:</span> 30</p>
+                                <p class="list_item"><i class="fa fa-angle-right pe-2"></i><span class="ap1_span">Degree:</span> Master
+                                </p>
+                                <p class="list_item"><i class="fa fa-angle-right pe-2"></i><span class="ap1_span">PhEmailone:</span>
+                                    email@example.com</p>
+                                <p class="list_item"><i class="fa fa-angle-right pe-2"></i><span class="ap1_span">Freelance:</span>
+                                    Available</p>
+                            </div>
+                        </div>
+                        <p class="about_profiles_text mt-2">Officiis eligendi itaque labore et dolorum mollitia officiis optio vero.
+                            Quisquam sunt adipisci omnis et ut. Nulla accusantium dolor incidunt officia tempore. Et eius omnis.
+                            Cupiditate ut dicta maxime officiis quidem quia. Sed et consectetur qui quia repellendus itaque neque.
+                            Aliquid amet quidem ut quaerat cupiditate. Ab et eum qui repellendus omnis culpa magni laudantium dolores.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="facts_page px-3 py-5">
+                <div class="fact_title h2">Facts</div>
+                <div class="line"></div>
+                <div class="facts_text mt-2 pb-5">Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga
+                    eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias
+                    ea. Quia fugiat sit in iste officiis commodi
+                    quidem hic quas.</div>
+                <div class="facts_record_container row row-cols-1 row-cols-md-2 row-cols-lg-4">
+                    <div class="col facts_records d-flex">
+                        <i class="bi bi-emoji-smile" data-aos="fade-up"></i>
+                        <div class="facts_record_text ps-3" data-aos="fade-up">
+                            <p class="h1 facts_number mb-1"><span data-purecounter-start="0" data-purecounter-end="232" class="purecounter fw-bolder">232</span></p>
+                            <p class="facts_record_title mb-0">Happy Clients</p>
+                            <p class="facts_title_text">consequuntur quae</p>
+                        </div>
+                    </div>
+                    <div class="col facts_records d-flex">
+                        <i class="bi bi-journal-richtext" data-aos="fade-up"></i>
+                        <div class="facts_record_text ps-3" data-aos="fade-up">
+                            <p class="h1 facts_number mb-1"><span data-purecounter-start="0" data-purecounter-end="521" class="purecounter fw-bolder">521</span></p>
+                            <p class="facts_record_title mb-0">Projects</p>
+                            <p class="facts_title_text">consequuntur quae</p>
+                        </div>
+                    </div>
+                    <div class="col facts_records d-flex">
+                        <i class="bi bi-headset" data-aos="fade-up"></i>
+                        <div class="facts_record_text ps-3" data-aos="fade-up">
+                            <p class="h1 facts_number mb-1"><span data-purecounter-start="0" data-purecounter-end="1453" class="purecounter fw-bolder">1453</span></p>
+                            <p class="facts_record_title mb-0">Hours of Support</p>
+                            <p class="facts_title_text">consequuntur quae</p>
+                        </div>
+                    </div>
+                    <div class="col facts_records d-flex">
+                        <i class="bi bi-people" data-aos="fade-up"></i>
+                        <div class="facts_record_text ps-3" data-aos="fade-up">
+                            <p class="h1 facts_number mb-1"><span data-purecounter-start="0" data-purecounter-end="32" class="purecounter fw-bolder">32</span></p>
+                            <p class="facts_record_title mb-0">Hard Workers</p>
+                            <p class="facts_title_text">consequuntur quae</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="skills_page p-3">
+                <div class="skills_title h2">Skills</div>
+                <div class="line"></div>
+                <div class="skills_text mt-2 pb-3">
+                    Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga
+                    eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias
+                    ea. Quia fugiat sit in iste officiis commodi
+                    quidem hic quas.
+                </div>
+                <div class="skills_progress_container pb-3">
+                    <div class="skill_set row row-cols-1 row-cols-lg-2">
+                        <div class="skills_set1 col p-3" data-aos="fade-up" data-aos-delay="200">
+                            <span class="skill">HTML <i class="val float-end">100%</i></span>
+                            <div class="progress">
+                                <div class="progress-bar" role="progressbar" style="width: 100%" aria-valuenow="100" aria-valuemin="0"
+                                    aria-valuemax="100"></div>
+                            </div>
+                        </div>
+                        <div class="skills_set1 col p-3" data-aos="fade-up" data-aos-delay="200">
+                            <span class="skill">PHP <i class="val float-end">80%</i></span>
+                            <div class="progress">
+                                <div class="progress-bar" role="progressbar" style="width: 80%" aria-valuenow="80" aria-valuemin="0"
+                                    aria-valuemax="100"></div>
+                            </div>
+                        </div>
+                        <div class="skills_set1 col p-3" data-aos="fade-up" data-aos-delay="200">
+                            <span class="skill">CSS <i class="val float-end">90%</i></span>
+                            <div class="progress">
+                                <div class="progress-bar" role="progressbar" style="width: 90%" aria-valuenow="90" aria-valuemin="0"
+                                    aria-valuemax="100"></div>
+                            </div>
+                        </div>
+                        <div class="skills_set1 col p-3" data-aos="fade-up" data-aos-delay="400">
+                            <span class="skill">WORDPRESS/CMS <i class="val float-end">90%</i></span>
+                            <div class="progress">
+                                <div class="progress-bar" role="progressbar" style="width: 90%" aria-valuenow="90" aria-valuemin="0"
+                                    aria-valuemax="100"></div>
+                            </div>
+                        </div>
+                        <div class="skills_set1 col p-3" data-aos="fade-up" data-aos-delay="400">
+                            <span class="skill">JAVASCRIPT <i class="val float-end">75%</i></span>
+                            <div class="progress">
+                                <div class="progress-bar" role="progressbar" style="width: 75%" aria-valuenow="75" aria-valuemin="0"
+                                    aria-valuemax="100"></div>
+                            </div>
+                        </div>
+                        <div class="skills_set1 col p-3" data-aos="fade-up" data-aos-delay="400">
+                            <span class="skill">PHOTOSHOP <i class="val float-end">55%</i></span>
+                            <div class="progress">
+                                <div class="progress-bar" role="progressbar" style="width: 55%" aria-valuenow="55" aria-valuemin="0"
+                                    aria-valuemax="100"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="resume_page p-3" id="Resume">
+            <div class="resume_title h2">Resume</div>
+            <div class="line"></div>
+            <div class="resume_title_text pb-3">
+                Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit.
+                Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi
+                quidem hic quas.
+            </div>
+            <div class="resume_flex row row-cols-1 row-cols-lg-2">
+                <div class="summary_section col mt-3" data-aos="fade-up" data-aos-delay="200">
+                    <p class="summary_title h2 mb-4">Summary</p>
+                    <div class="summary_1 ps-2 ps-lg-3 mb-2 position-relative">
+                        <button class=" position-absolute d-block start-0 translate-middle rounded-circle p-2 circle_class"></button>
+                        <p class="resume_name h4 mb-1">ALEX SMITH</p>
+                        <p class="resume_text">
+                            Innovative and deadline-driven Graphic Designer with 3+ years of experience designing and developing user-centered
+                            digital/print marketing material from initial concept to final, polished deliverable.
+                        </p>
+                        <ul class="summary_list">
+                            <li>Portland par 127,Orlando, FL</li>
+                            <li>(123) 456-7891</li>
+                            <li>alice.barkley@example.com</li>
+                        </ul>
+                    </div>
+                    <p class="summary_title h2 mb-4">Education</p>
+                    <div class="summary_education ps-2 ps-lg-3 position-relative">
+                        <button class=" position-absolute d-block start-0 translate-middle rounded-circle p-2 circle_class"></button>
+                        <p class="education_name mb-2">MASTER OF FINE ARTS & GRAPHIC DESIGN</p>
+                        <h5 class="year p-1">2015-2016</h5>
+                        <p class="institute_name mt-3">Rochester Institute of Technology, Rochester, NY</p>
+                        <p class="education_description">Qui deserunt veniam. Et sed aliquam labore tempore sed quisquam iusto autem sit. Ea vero voluptatum qui ut dignissimos
+                        deleniti nerada porti sand markend</p>
+                        <p class="education_name mb-2">BACHELOR OF FINE ARTS & GRAPHIC DESIGN</p>
+                        <h5 class="year p-1">2010-2014</h5>
+                        <p class="institute_name mt-3">Rochester Institute of Technology, Rochester, NY</p>
+                        <p class="education_description">Qui deserunt veniam. Et sed aliquam labore tempore sed quisquam iusto autem sit. Ea vero voluptatum qui ut dignissimos deleniti nerada porti sand markend</p>
+                    </div>
+                </div>
+                <div class="professional_experience col mt-3" data-aos="fade-up" data-aos-delay="400">
+                    <p class="summary_title h2 mb-4">Professional Experience</p>
+                    <div class="pe_section ps-2 ps-lg-3 position-relative">
+                        <button class=" position-absolute d-block start-0 translate-middle rounded-circle p-2 circle_class"></button>
+                        <!-- <button class=" position-absolute d-block start-0  top-50 translate-middle rounded-circle p-2 circle_class"></button> -->
+                        <div class="pe_section_1">
+                            <p class="education_name mb-2">SENIOR GRAPHIC DESIGN SPECIALIST</p>
+                            <h5 class="year p-1">2019-Present</h5>
+                            <p class="institute_name mt-3">Experion, New York, NY</p>
+                            <ul class="pe_lists">
+                                <li class="mb-3">Lead in the design, development, and implementation of the graphic, layout, and production
+                                    communication materials</li>
+                                <li class="mb-3">Delegate tasks to the 7 members of the design team and provide counsel on all aspects of the
+                                    project.</li>
+                                <li class="mb-3">Supervise the assessment of all graphic materials in order to ensure quality and accuracy of the
+                                    design</li>
+                                <li class="mb-3">Oversee the efficient use of production project budgets ranging from $2,000 - $25,000</li>
+                            </ul>
+                        </div>
+                        <div class="pe_section_1 ps-2 ps-lg-3">
+                            <button class=" position-absolute d-block start-0 translate-middle rounded-circle p-2 circle_class"></button>
+                            <p class="education_name mb-2">GRAPHIC DESIGN SPECIALIST</p>
+                            <h5 class="year p-1">2017 - 2018</h5>
+                            <p class="institute_name mt-3">Stepping Stone Advertising, New York, NY</p>
+                            <ul class="pe_lists">
+                                <li class="mb-3">Developed numerous marketing programs (logos, brochures,infographics, presentations, and advertisements).</li>
+                                <li class="mb-3">Managed up to 5 projects or tasks at a given time while under pressure</li>
+                                <li class="mb-3">Recommended and consulted with clients on the most appropriate graphic design</li>
+                                <li class="mb-3">Created 4+ design presentations and proposals a month for clients and account managers</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="portfolio_page px-3 py-5" id="Portfolio">
+            <div class="portfolio_title h2">Portfolio</div>
+            <div class="line"></div>
+            <div class="portfolio_title_text pb-3">
+                Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur
+                velit.
+                Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi
+                quidem hic quas.
+            </div>
+            <ul class="portfolio_nav_container nav nav-tabs rounded-pill mx-auto h-25" id="myTabs" data-aos="fade-up" data-aos-delay="200">
+                <li class="nav-item">
+                    <button data-bs-target="#Page1" data-bs-toggle="tab" class="nav-link active first_li">ALL</button>
+                </li>
+                <li class="nav-item">
+                    <button data-bs-target="#Page2" data-bs-toggle="tab" class="nav-link">APP</button>
+                </li>
+                <li class="nav-item">
+                    <button data-bs-target="#Page3" data-bs-toggle="tab"  class="nav-link">CARD</button>
+                </li>
+                <li class="nav-item">
+                    <button data-bs-target="#Page3" data-bs-toggle="tab"  class="nav-link no_border">WEB</button>
+                </li>
+            </ul>
+            <div class="tab-content" id="#myTabContent" data-aos="fade-up" data-aos-delay="200">
+                <div class="tab-pane fade show active" id="Page1">
+                    <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3">
+                        <div class="col position-relative tab_col1" data-aos="fade-up" data-aos-delay="200">
+                            <div class="tabs_icons position-absolute  d-flex justify-content-evenly">
+                                <i class="fa fa-plus"></i>
+                                <i class="fa fa-link"></i>
+                            </div>
+                        </div>
+                        <div class="col position-relative tab_col2" data-aos="fade-up" data-aos-delay="200">
+                            <div class="tabs_icons position-absolute  d-flex justify-content-evenly">
+                                <i class="fa fa-plus"></i>
+                                <i class="fa fa-link"></i>
+                            </div>
+                        </div>
+                        <div class="col position-relative tab_col3" data-aos="fade-up" data-aos-delay="200">
+                            <div class="tabs_icons position-absolute  d-flex justify-content-evenly">
+                                <i class="fa fa-plus"></i>
+                                <i class="fa fa-link"></i>
+                            </div>
+                        </div>
+                        <div class="col position-relative tab_col4" data-aos="fade-up" data-aos-delay="200">
+                            <div class="tabs_icons position-absolute  d-flex justify-content-evenly">
+                                <i class="fa fa-plus"></i>
+                                <i class="fa fa-link"></i>
+                            </div>
+                        </div>
+                        <div class="col position-relative tab_col5" data-aos="fade-up" data-aos-delay="200">
+                            <div class="tabs_icons position-absolute  d-flex justify-content-evenly">
+                                <i class="fa fa-plus"></i>
+                                <i class="fa fa-link"></i>
+                            </div>
+                        </div>
+                        <div class="col position-relative tab_col6" data-aos="fade-up" data-aos-delay="200"> 
+                            <div class="tabs_icons position-absolute  d-flex justify-content-evenly">
+                                <i class="fa fa-plus"></i>
+                                <i class="fa fa-link"></i>
+                            </div>
+                        </div>
+                        <div class="col position-relative tab_col7" data-aos="fade-up" data-aos-delay="200">
+                            <div class="tabs_icons position-absolute  d-flex justify-content-evenly">
+                                <i class="fa fa-plus"></i>
+                                <i class="fa fa-link"></i>
+                            </div>
+                        </div>
+                        <div class="col position-relative tab_col8" data-aos="fade-up" data-aos-delay="200">
+                            <div class="tabs_icons position-absolute  d-flex justify-content-evenly">
+                                <i class="fa fa-plus"></i>
+                                <i class="fa fa-link"></i>
+                            </div>
+                        </div>
+                        <div class="col position-relative tab_col9" data-aos="fade-up" data-aos-delay="200">
+                            <div class="tabs_icons position-absolute  d-flex justify-content-evenly">
+                                <i class="fa fa-plus"></i>
+                                <i class="fa fa-link"></i>
+                            </div>
+                        </div>
+                        
+                    </div>
+                </div>
+                <div class="tab-pane fade" id="Page2">
+                    <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3">
+                        <div class="col position-relative tab_col1">
+                            <div class="tabs_icons position-absolute  d-flex justify-content-evenly">
+                                <i class="fa fa-plus"></i>
+                                <i class="fa fa-link"></i>
+                            </div>
+                        </div>
+                        <div class="col position-relative tab_col3">
+                            <div class="tabs_icons position-absolute  d-flex justify-content-evenly">
+                                <i class="fa fa-plus"></i>
+                                <i class="fa fa-link"></i>
+                            </div>
+                        </div>
+                        <div class="col position-relative tab_col6">
+                            <div class="tabs_icons position-absolute  d-flex justify-content-evenly">
+                                <i class="fa fa-plus"></i>
+                                <i class="fa fa-link"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="tab-pane fade" id="Page3">
+                    <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 last_img_child">
+                        <div class="col position-relative tab_col4">
+                            <div class="tabs_icons position-absolute  d-flex justify-content-evenly">
+                                <i class="fa fa-plus"></i>
+                                <i class="fa fa-link"></i>
+                            </div>
+                        </div>
+                        <div class="col position-relative tab_col7">
+                            <div class="tabs_icons position-absolute  d-flex justify-content-evenly">
+                                <i class="fa fa-plus"></i>
+                                <i class="fa fa-link"></i>
+                            </div>
+                        </div>
+                        <div class="col position-relative tab_col8">
+                            <div class="tabs_icons position-absolute  d-flex justify-content-evenly">
+                                <i class="fa fa-plus"></i>
+                                <i class="fa fa-link"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="tab-pane fade" id="Page4">
+                    <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 last_img_child">
+                        <div class="col position-relative tab_col2">
+                            <div class="tabs_icons position-absolute  d-flex justify-content-evenly">
+                                <i class="fa fa-plus"></i>
+                                <i class="fa fa-link"></i>
+                            </div>
+                        </div>
+                        <div class="col position-relative tab_col5">
+                            <div class="tabs_icons position-absolute  d-flex justify-content-evenly">
+                                <i class="fa fa-plus"></i>
+                                <i class="fa fa-link"></i>
+                            </div>
+                        </div>
+                        <div class="col position-relative tab_col9">
+                            <div class="tabs_icons position-absolute  d-flex justify-content-evenly">
+                                <i class="fa fa-plus"></i>
+                                <i class="fa fa-link"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="services_page p-3 mt-3" id="Services">
+            <div class="services_title h2">Services</div>
+            <div class="line"></div>
+            <div class="services_title_text pb-3 mb-2">
+                Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur
+                velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi
+                quidem hic quas.
+            </div>
+            <div class="services_flex row row-cols-1 row-cols-md-2 row-cols-lg-3">
+                <div class="services_flex1 d-flex col" data-aos="fade-up" data-aos-delay="200">
+                    <div class="services_icon pe-3 pt-3">
+                        <i class="bi bi-briefcase rounded-circle"></i>
+                    </div>
+                    <div class="services_flex_text">
+                        <p class="services_flex_heading h4">Lorem Ipsum</p>
+                        <p class="services_flex_main_text">Voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident</p>
+                    </div>
+                </div>
+                <div class="services_flex1 d-flex col" data-aos="fade-up" data-aos-delay="200">
+                    <div class="services_icon pe-3 pt-3">
+                        <i class="bi bi-card-checklist rounded-circle"></i>
+                    </div>
+                    <div class="services_flex_text">
+                        <p class="services_flex_heading h4">Dolor Sitema</p>
+                        <p class="services_flex_main_text">Minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat tarad limino ata</p>
+                    </div>
+                </div>
+                <div class="services_flex1 d-flex col" data-aos="fade-up" data-aos-delay="200">
+                    <div class="services_icon pe-3 pt-3">
+                        <i class="bi bi-bar-chart rounded-circle"></i>
+                    </div>
+                    <div class="services_flex_text">
+                        <p class="services_flex_heading h4">Sed ut perspiciatis</p>
+                        <p class="services_flex_main_text">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur</p>
+                    </div>
+                </div>
+                <div class="services_flex1 d-flex col" data-aos="fade-up" data-aos-delay="200">
+                    <div class="services_icon pe-3 pt-3">
+                        <i class="bi bi-binoculars rounded-circle"></i>
+                    </div>
+                    <div class="services_flex_text">
+                        <p class="services_flex_heading h4">Magni Dolores</p>
+                        <p class="services_flex_main_text">Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum</p>
+                    </div>
+                </div>
+                <div class="services_flex1 d-flex col" data-aos="fade-up" data-aos-delay="200">
+                    <div class="services_icon pe-3 pt-3">
+                        <i class="bi bi-brightness-high rounded-circle"></i>
+                    </div>
+                    <div class="services_flex_text">
+                        <p class="services_flex_heading h4">Nemo Enim</p>
+                        <p class="services_flex_main_text">At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque</p>
+                    </div>
+                </div>
+                <div class="services_flex1 d-flex col" data-aos="fade-up" data-aos-delay="200">
+                    <div class="services_icon pe-3 pt-3">
+                        <i class="bi bi-calendar4-week rounded-circle"></i>
+                    </div>
+                    <div class="services_flex_text">
+                        <p class="services_flex_heading h4">Eiusmod Tempor</p>
+                        <p class="services_flex_main_text">Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="testimonials_page px-3 py-5 mt-3">
+            <div class="testimonials_title pt-3 h2">Testimonials</div>
+            <div class="line"></div>
+            <div class="testimonials_title_text pb-3 mb-2">
+                Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur
+                velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis
+                commodi quidem hic quas.
+            </div>
+            <div id="carouselsContainer" class="carousel slide d-block d-xl-none position-relative" data-bs-ride="carousel">
+                <div class="carousel-indicators position-absolute top-100 mt-3">
+                    <button class="active" data-bs-target="#carouselsContainer" data-bs-slide-to="0" type="button"></button>
+                    <button data-bs-target="#carouselsContainer" data-bs-slide-to="1" type="button"></button>
+                    <button data-bs-target="#carouselsContainer" data-bs-slide-to="2" type="button"></button>
+                    <button data-bs-target="#carouselsContainer" data-bs-slide-to="3" type="button"></button>
+                    <button data-bs-target="#carouselsContainer" data-bs-slide-to="4" type="button"></button>
+                </div>
+                <div class="carousel-inner row row-cols-1">
+                    <div class="carousel-item active col pe-0" data-aos="fade-up" data-aos-delay="200">
+                        <p class="text_cc p-3 position-relative">
+                            <i class="fa fa-quote-left"></i>
+                            Proin iaculis purus consequat sem cure digni ssim donec porttitora entum suscipit rhoncus. Accusantium quam,
+                            ultricies
+                            eget id, aliquam eget nibh et. Maecen aliquam, risus at semper.<svg width="1em" height="1em" viewBox="0 0 16 16"
+                                class="position-absolute top-100 start-50 translate-middle mt-1 bi bi-caret-down-fill" fill="#fff"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path
+                                    d="M7.247 11.14L2.451 5.658C1.885 5.013 2.345 4 3.204 4h9.592a1 1 0 0 1 .753 1.659l-4.796 5.48a1 1 0 0 1-1.506 0z" />
+                            </svg>
+                            <i class="fa fa-quote-right"></i>
+                        </p>
+                        <img src="Images/testimonials-1.jpg" alt="" class="rounded-circle d-block mx-auto">
+                        <div class="member_names text-center mt-2">
+                            <p class="member_name_1 h3 mb-0">Saul Goodman</p>
+                            <p class="mt-0 text-secondary">Ceo Founder</p>
+                        </div>
+                    </div>
+                    <div class="carousel-item col pe-0" data-aos="fade-up" data-aos-delay="200">
+                        <p class="text_cc p-3 position-relative">
+                            <i class="fa fa-quote-left"></i>
+                            Export tempor illum tamen malis malis eram quae irure esse labore quem cillum quid cillum eram malis quorum velit fore
+                            eram velit sunt aliqua noster fugiat irure amet legam anim culpa.
+                            <svg width="1em" height="1em" viewBox="0 0 16 16"
+                                class="position-absolute top-100 start-50 translate-middle mt-1 bi bi-caret-down-fill" fill="#fff"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path
+                                    d="M7.247 11.14L2.451 5.658C1.885 5.013 2.345 4 3.204 4h9.592a1 1 0 0 1 .753 1.659l-4.796 5.48a1 1 0 0 1-1.506 0z" />
+                            </svg>
+                            <i class="fa fa-quote-right"></i>
+                        </p>
+                        <img src="Images/testimonials-2.jpg" alt="" class="rounded-circle d-block mx-auto">
+                        <div class="member_names text-center mt-2">
+                            <p class="member_name_1 h3 mb-0">Sara Wilson</p>
+                            <p class="mt-0 text-secondary">Designer</p>
+                        </div>
+                    </div>
+                    <div class="carousel-item col pe-0" data-aos="fade-up" data-aos-delay="200">
+                        <p class="text_cc p-3 position-relative">
+                            <i class="fa fa-quote-left"></i>
+                        Enim nisi quem export duis labore cillum quae magna enim sint quorum nulla quem veniam duis minim tempor labore quem
+                        eram duis noster aute amet eram fore quis sint minim.
+                            <svg width="1em" height="1em" viewBox="0 0 16 16"
+                                class="position-absolute top-100 start-50 translate-middle mt-1 bi bi-caret-down-fill" fill="#fff"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path
+                                    d="M7.247 11.14L2.451 5.658C1.885 5.013 2.345 4 3.204 4h9.592a1 1 0 0 1 .753 1.659l-4.796 5.48a1 1 0 0 1-1.506 0z" />
+                            </svg>
+                            <i class="fa fa-quote-right"></i>
+                        </p>
+                        <img src="Images/testimonials-3.jpg" alt="" class="rounded-circle d-block mx-auto">
+                        <div class="member_names text-center mt-2">
+                            <p class="member_name_1 h3 mb-0">Jena Karlis</p>
+                            <p class="mt-0 text-secondary">Store Owner</p>
+                        </div>
+                    </div>
+                    <div class="carousel-item col pe-0" data-aos="fade-up" data-aos-delay="200">
+                        <p class="text_cc p-3 position-relative">
+                            <i class="fa fa-quote-left"></i>
+                        Fugiat enim eram quae cillum dolore dolor amet nulla culpa multos export minim fugiat minim velit minim dolor enim duis
+                        veniam ipsum anim magna sunt elit fore quem dolore labore illum veniam.
+                            <svg width="1em" height="1em" viewBox="0 0 16 16"
+                                class="position-absolute top-100 start-50 translate-middle mt-1 bi bi-caret-down-fill" fill="#fff"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path
+                                    d="M7.247 11.14L2.451 5.658C1.885 5.013 2.345 4 3.204 4h9.592a1 1 0 0 1 .753 1.659l-4.796 5.48a1 1 0 0 1-1.506 0z" />
+                            </svg>
+                            <i class="fa fa-quote-right"></i>
+                        </p>
+                        <img src="Images/testimonials-4.jpg" alt="" class="rounded-circle d-block mx-auto">
+                        <div class="member_names text-center mt-2">
+                            <p class="member_name_1 h3 mb-0">Matt Brandon</p>
+                            <p class="mt-0 text-secondary">Freelancer</p>
+                        </div>
+                    </div>
+                    <div class="carousel-item col pe-0">
+                        <p class="text_cc p-3 position-relative">
+                            <i class="fa fa-quote-left"></i>
+                            Quis quorum aliqua sint quem legam fore sunt eram irure aliqua veniam tempor noster veniam enim culpa labore duis sunt
+                            culpa nulla illum cillum fugiat legam esse veniam culpa fore nisi cillum quid.
+                            <svg width="1em" height="1em" viewBox="0 0 16 16"
+                                class="position-absolute top-100 start-50 translate-middle mt-1 bi bi-caret-down-fill" fill="#fff"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path
+                                    d="M7.247 11.14L2.451 5.658C1.885 5.013 2.345 4 3.204 4h9.592a1 1 0 0 1 .753 1.659l-4.796 5.48a1 1 0 0 1-1.506 0z" />
+                            </svg>
+                            <i class="fa fa-quote-right"></i>
+                        </p>
+                        <img src="Images/testimonials-5.jpg" alt="" class="rounded-circle d-block mx-auto">
+                        <div class="member_names text-center mt-2">
+                            <p class="member_name_1 h3 mb-0">John Larson</p>
+                            <p class="mt-0 text-secondary">Entreprenur</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div id="carouselContainer" class="carousel slide d-none d-xl-block position-relative" data-bs-ride="carousel">
+                <div class="carousel-indicators position-absolute top-100 mt-3">
+                    <button class="active" data-bs-target="#carouselContainer" data-bs-slide-to="0" type="button"></button>
+                    <button  data-bs-target="#carouselContainer" data-bs-slide-to="1" type="button"></button>
+                    <button  data-bs-target="#carouselContainer" data-bs-slide-to="2" type="button"></button>
+                </div>
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <div class="row row-cols-lg-3">
+                            <div class="col">
+                                <p class="text_cc p-3 position-relative">
+                                    <i class="fa fa-quote-left"></i>
+                                    Proin iaculis purus consequat sem cure digni ssim donec porttitora entum suscipit rhoncus. Accusantium quam, ultricies
+                                    eget id, aliquam eget nibh et. Maecen aliquam, risus at semper.
+                                    <svg width="1em" height="1em" viewBox="0 0 16 16"
+                                        class="position-absolute top-100 start-50 translate-middle mt-1 bi bi-caret-down-fill" fill="#fff"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <path
+                                            d="M7.247 11.14L2.451 5.658C1.885 5.013 2.345 4 3.204 4h9.592a1 1 0 0 1 .753 1.659l-4.796 5.48a1 1 0 0 1-1.506 0z" />
+                                    </svg>
+                                    <i class="fa fa-quote-right"></i>
+                                </p>
+                                <img src="Images/testimonials-1.jpg" alt="" class="rounded-circle d-block mx-auto">
+                                <div class="member_names text-center mt-2">
+                                    <p class="member_name_1 h3 mb-0">Saul Goodman</p>
+                                    <p class="mt-0 text-secondary">Designer</p>
+                                </div>
+                            </div>
+                            <div class="col">
+                                <p class="text_cc p-3 position-relative">
+                                    <i class="fa fa-quote-left"></i>
+                                    Export tempor illum tamen malis malis eram quae irure esse labore quem cillum quid cillum eram malis quorum velit fore
+                                    eram velit sunt aliqua noster fugiat irure amet legam anim culpa.
+                                    <svg width="1em" height="1em" viewBox="0 0 16 16"
+                                        class="position-absolute top-100 start-50 translate-middle mt-1 bi bi-caret-down-fill" fill="#fff"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <path
+                                            d="M7.247 11.14L2.451 5.658C1.885 5.013 2.345 4 3.204 4h9.592a1 1 0 0 1 .753 1.659l-4.796 5.48a1 1 0 0 1-1.506 0z" />
+                                    </svg>
+                                    <i class="fa fa-quote-right"></i>
+                                </p>
+                                <img src="Images/testimonials-2.jpg" alt="" class="rounded-circle d-block mx-auto">
+                                <div class="member_names text-center mt-2">
+                                    <p class="member_name_1 h3 mb-0">Sara Wilson</p>
+                                    <p class="mt-0 text-secondary">Designer</p>
+                                </div>
+                            </div>
+                            <div class="col">
+                                <p class="text_cc p-3 position-relative">
+                                    <i class="fa fa-quote-left"></i>
+                                    Enim nisi quem export duis labore cillum quae magna enim sint quorum nulla quem veniam duis minim tempor labore quem
+                                    eram duis noster aute amet eram fore quis sint minim.
+                                    <svg width="1em" height="1em" viewBox="0 0 16 16"
+                                        class="position-absolute top-100 start-50 translate-middle mt-1 bi bi-caret-down-fill" fill="#fff"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <path
+                                            d="M7.247 11.14L2.451 5.658C1.885 5.013 2.345 4 3.204 4h9.592a1 1 0 0 1 .753 1.659l-4.796 5.48a1 1 0 0 1-1.506 0z" />
+                                    </svg>
+                                    <i class="fa fa-quote-right"></i>
+                                </p>
+                                <img src="Images/testimonials-3.jpg" alt="" class="rounded-circle d-block mx-auto">
+                                <div class="member_names text-center mt-2">
+                                    <p class="member_name_1 h3 mb-0">Jena Karlis</p>
+                                    <p class="mt-0 text-secondary">Store Owner</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="row row-cols-lg-3">
+                            <div class="col">
+                                <p class="text_cc p-3 position-relative">
+                                    <i class="fa fa-quote-left"></i>
+                                    Export tempor illum tamen malis malis eram quae irure esse labore quem cillum quid cillum eram malis quorum velit fore
+                                    eram velit sunt aliqua noster fugiat irure amet legam anim culpa.
+                                    <svg width="1em" height="1em" viewBox="0 0 16 16"
+                                        class="position-absolute top-100 start-50 translate-middle mt-1 bi bi-caret-down-fill" fill="#fff"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <path
+                                            d="M7.247 11.14L2.451 5.658C1.885 5.013 2.345 4 3.204 4h9.592a1 1 0 0 1 .753 1.659l-4.796 5.48a1 1 0 0 1-1.506 0z" />
+                                    </svg>
+                                    <i class="fa fa-quote-right"></i>
+                                </p>
+                                <img src="Images/testimonials-2.jpg" alt="" class="rounded-circle d-block mx-auto">
+                                <div class="member_names text-center mt-2">
+                                    <p class="member_name_1 h3 mb-0">Sara Wilson</p>
+                                    <p class="mt-0 text-secondary">Designer</p>
+                                </div>
+                            </div>
+                            <div class="col">
+                                <p class="text_cc p-3 position-relative">
+                                    <i class="fa fa-quote-left"></i>
+                                    Enim nisi quem export duis labore cillum quae magna enim sint quorum nulla quem veniam duis minim tempor labore quem
+                                    eram duis noster aute amet eram fore quis sint minim.
+                                    <svg width="1em" height="1em" viewBox="0 0 16 16"
+                                        class="position-absolute top-100 start-50 translate-middle mt-1 bi bi-caret-down-fill" fill="#fff"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <path
+                                            d="M7.247 11.14L2.451 5.658C1.885 5.013 2.345 4 3.204 4h9.592a1 1 0 0 1 .753 1.659l-4.796 5.48a1 1 0 0 1-1.506 0z" />
+                                    </svg>
+                                    <i class="fa fa-quote-right"></i>
+                                </p>
+                                <img src="Images/testimonials-3.jpg" alt="" class="rounded-circle d-block mx-auto">
+                                <div class="member_names text-center mt-2">
+                                    <p class="member_name_1 h3 mb-0">Jena Karlis</p>
+                                    <p class="mt-0 text-secondary">Store Owner</p>
+                                </div>
+                            </div>
+                            <div class="col">
+                                <p class="text_cc p-3 position-relative">
+                                    <i class="fa fa-quote-left"></i>
+                                    Fugiat enim eram quae cillum dolore dolor amet nulla culpa multos export minim fugiat minim velit minim dolor enim duis
+                                    veniam ipsum anim magna sunt elit fore quem dolore labore illum veniam.
+                                    <svg width="1em" height="1em" viewBox="0 0 16 16"
+                                        class="position-absolute top-100 start-50 translate-middle mt-1 bi bi-caret-down-fill" fill="#fff"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <path
+                                            d="M7.247 11.14L2.451 5.658C1.885 5.013 2.345 4 3.204 4h9.592a1 1 0 0 1 .753 1.659l-4.796 5.48a1 1 0 0 1-1.506 0z" />
+                                    </svg>
+                                    <i class="fa fa-quote-right"></i>
+                                </p>
+                                <img src="Images/testimonials-4.jpg" alt="" class="rounded-circle d-block mx-auto">
+                                <div class="member_names text-center mt-2">
+                                    <p class="member_name_1 h3 mb-0">Matt Brandon</p>
+                                    <p class="mt-0 text-secondary">Freelancer</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="row row-cols-lg-3">
+                            <div class="col">
+                                <p class="text_cc p-3 position-relative">
+                                    <i class="fa fa-quote-left"></i>
+                                    Proin iaculis purus consequat sem cure digni ssim donec porttitora entum suscipit rhoncus. Accusantium
+                                    quam, ultricies
+                                    eget id, aliquam eget nibh et. Maecen aliquam, risus at semper.
+                                    <svg width="1em" height="1em" viewBox="0 0 16 16"
+                                        class="position-absolute top-100 start-50 translate-middle mt-1 bi bi-caret-down-fill" fill="#fff"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <path
+                                            d="M7.247 11.14L2.451 5.658C1.885 5.013 2.345 4 3.204 4h9.592a1 1 0 0 1 .753 1.659l-4.796 5.48a1 1 0 0 1-1.506 0z" />
+                                    </svg>
+                                    <i class="fa fa-quote-right"></i>
+                                </p>
+                                <img src="Images/testimonials-3.jpg" alt="" class="rounded-circle d-block mx-auto">
+                                <div class="member_names text-center mt-2">
+                                    <p class="member_name_1 h3 mb-0">Jena Karlis</p>
+                                    <p class="mt-0 text-secondary">Store Owner</p>
+                                </div>
+                            </div>
+                            <div class="col">
+                                <p class="text_cc p-3 position-relative">
+                                    <i class="fa fa-quote-left"></i>
+                                    Fugiat enim eram quae cillum dolore dolor amet nulla culpa multos export minim fugiat minim velit minim dolor enim duis
+                                    veniam ipsum anim magna sunt elit fore quem dolore labore illum veniam.
+                                    <svg width="1em" height="1em" viewBox="0 0 16 16"
+                                        class="position-absolute top-100 start-50 translate-middle mt-1 bi bi-caret-down-fill" fill="#fff"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <path
+                                            d="M7.247 11.14L2.451 5.658C1.885 5.013 2.345 4 3.204 4h9.592a1 1 0 0 1 .753 1.659l-4.796 5.48a1 1 0 0 1-1.506 0z" />
+                                    </svg>
+                                    <i class="fa fa-quote-right"></i>
+                                </p>
+                                <img src="Images/testimonials-4.jpg" alt="" class="rounded-circle d-block mx-auto">
+                                <div class="member_names text-center mt-2">
+                                    <p class="member_name_1 h3 mb-0">Matt Brandon</p>
+                                    <p class="mt-0 text-secondary">Freelancer</p>
+                                </div>
+                            </div>
+                            <div class="col">
+                                <p class="text_cc p-3 position-relative">
+                                    <i class="fa fa-quote-left"></i>
+                                    Quis quorum aliqua sint quem legam fore sunt eram irure aliqua veniam tempor noster veniam enim culpa labore duis sunt
+                                    culpa nulla illum cillum fugiat legam esse veniam culpa fore nisi cillum quid.
+                                    <svg width="1em" height="1em" viewBox="0 0 16 16"
+                                        class="position-absolute top-100 start-50 translate-middle mt-1 bi bi-caret-down-fill" fill="#fff"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <path
+                                            d="M7.247 11.14L2.451 5.658C1.885 5.013 2.345 4 3.204 4h9.592a1 1 0 0 1 .753 1.659l-4.796 5.48a1 1 0 0 1-1.506 0z" />
+                                    </svg>
+                                    <i class="fa fa-quote-right"></i>
+                                </p>
+                                <img src="Images/testimonials-5.jpg" alt="" class="rounded-circle d-block mx-auto">
+                                <div class="member_names text-center mt-2">
+                                    <p class="member_name_1 h3 mb-0">John Larson</p>
+                                    <p class="mt-0 text-secondary">Entreprenur</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+        <div class="contact_page px-3 py-5" id="Contact">
+            <div class="contacts_title h2">Contact</div>
+            <div class="line"></div>
+            <div class="contact_title_text pb-3 mb-2">
+                Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur
+                velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis
+                commodi
+                quidem hic quas.
+            </div>
+            <!-- <div class="col-12"> -->
+            <div class="contacts_flex row row-cols-1 row-cols-lg-2 px-3 justify-content-lg-around">
+                <div class="col-12 col-lg-5 address_flex" data-aos="zoom-out" data-aos-duration="500">
+                    <div class="address_icon_flex d-flex py-3">
+                        <div class="address_icon pe-3 pt-3">
+                            <i class="bi bi-geo-alt rounded-circle"></i>
+                        </div>
+                        <div class="address_location">
+                            <p class="h4 address_title mb-1">Location:</p>
+                            <p class="address_location_name">A108 Adam Street, New York, NY 535022</p>
+                        </div>
+                    </div>
+                    <div class="address_icon_flex d-flex py-3">
+                        <div class="address_icon pe-3 pt-3">
+                            <i class="bi bi-envelope rounded-circle"></i>
+                        </div>
+                        <div class="address_location">
+                            <p class="h4 address_title mb-1">Email:</p>
+                            <p class="address_location_name">info@example.com</p>
+                        </div>
+                    </div>
+                    <div class="address_icon_flex d-flex py-3">
+                        <div class="address_icon pe-3 pt-3">
+                            <i class="bi bi-phone rounded-circle"></i>
+                        </div>
+                        <div class="address_location">
+                            <p class="h4 address_title mb-1">Call:</p>
+                            <p class="address_location_name">+1 5589 55488 55s</p>
+                        </div>
+                    </div>
+                    <div class="map mt-2">
+                        <iframe
+                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d241317.1160978669!2d72.7411002895225!3d19.082197839833327!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7c6306644edc1%3A0x5da4ed8f8d648c69!2sMumbai%2C%20Maharashtra!5e0!3m2!1sen!2sin!4v1628434464169!5m2!1sen!2sin"
+                            class="w-100" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                    </div>
+                </div>
+                <div class="col form_flex d-flex  flex-column justify-content-evenly mt-4 mt-lg-0" data-aos="zoom-out" data-aos-duration="500">
+                    <div class="row">
+                        <div class="col-12 col-lg-6 py-2">
+                            <label for="name" class="form-label">Your Name</label>
+                            <input type="text" id="name" class="form-control">
+                        </div>
+                        <div class="col-12 col-lg-6 py-2">
+                            <label for="name" class="form-label">Your Email</label>
+                            <input type="text" id="name" class="form-control">
+                        </div>
+                    </div>
+                    <div class="subject_form py-2">
+                        <label for="subject" class="form-label">Subject</label>
+                        <input type="text" class="form-control" id="subject">
+                    </div>
+                    <div class="text_area py-2">
+                        <label for="textbox" class="form-label">Message</label>
+                        <textarea id="textbox" cols="30" rows="10" class="form-control"></textarea>
+                    </div>
+                    <button class="btn btn-primary form_button d-block mx-auto mt-3">Send Message</button>
+                </div>
+            </div>
+            
+        <!-- </div> -->
+        </div>
+    </div>
+   <script async src="purecounterjs-master/dist/purecounter.js"></script>
+    <script type="text/javascript">
+        AOS.init();
+         var scrollSpy = new bootstrap.ScrollSpy(document.body, {
+            target: '#navbar-example2'
+        })
+        var dataSpyList = [].slice.call(document.querySelectorAll('[data-bs-spy="scroll"]'))
+        dataSpyList.forEach(function (dataSpyEl) {
+            bootstrap.ScrollSpy.getInstance(dataSpyEl)
+                .refresh()
+        })
+    </script>
+</body>
+</html>

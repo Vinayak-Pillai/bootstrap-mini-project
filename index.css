@@ -1,0 +1,453 @@
+/* font-family: 'Raleway', sans-serif; */
+.nav-link:hover i{
+    color:#0d6efd !important;
+}
+.nav-link:hover{
+    color:white !important
+}
+body{
+    position: relative;
+    color:#212529;
+    font-family: 'Open Sans', sans-serif;
+}
+.main_container{
+    width:80%;  
+    position: relative;
+    left:20%;
+}
+.side_navbar{
+    width:20%;
+    background: #040b14 !important;
+    position: fixed;
+    height:100%;
+}
+.img_name{
+    color:white;
+    font-size: 24px;
+    font-weight:700;
+}
+.nav-link.active{
+    background-color:transparent !important;
+    color:white !important;
+}
+.nav-link.active i{
+    color:#0d6efd !important;
+}
+.img_icons i{
+    color:white;
+    padding:8px 0;
+    background-color:#212431;
+}
+.img_icons i:hover{
+    background-color:#149DDD;
+    transition: 0.5s;
+}
+.home_page{
+    background:url("Images/hero-bg.jpg") fixed no-repeat;
+    height:100vh;
+    background-position-x: center;
+    background-size:cover;
+    width:100%;
+}
+.about_title,.fact_title,.skills_title,.resume_title,.portfolio_title,.services_title,.testimonials_title,.contacts_title{
+    color:#173b6c;
+    font-family: 'Raleway',sans-serif;
+    font-weight: 800;
+}
+.about_italic_text{
+    font-style: italic;
+}
+.val{
+    font-weight: 600;
+}
+.line{
+    width:40px;
+    height:3px;
+    background-color:#149DDD;
+    margin-bottom:10px;
+}
+.sc_img{
+    border:8px solid #2c2f3f;
+    width:120px;
+    height:120px;
+}
+.homepage_text{
+    height:100%;
+    color:white;
+    font-weight:600;
+    background-color: rgba(0, 0, 0, 0.301);
+}
+.hp_name{
+    font-size:64px;
+    font-family: 'Raleway', sans-serif;
+    font-weight:900;
+}
+.hp_title{
+    font-size:26px;
+    font-family: 'Poppins', sans-serif;
+    letter-spacing: 2px;
+    font-weight: 600;
+}
+.ap1 i,.ap2 i{
+    color:#149DDD;
+}
+.ap1_span{
+    font-weight: 700;
+}
+.facts_records i{
+    font-size:48px;
+    color:#149DDD;
+}
+.facts_number{
+    font-size:48px;
+}
+.facts_record_title{
+    color:#122f57;
+}
+.facts_record_title,.facts_title_text,.resume_title_text,.portfolio_title_text,.services_title_text,.testimonials_title_text,.contact_title_text{
+    font-family:'Raleway',sans-serif;
+}
+.skills_page,.testimonials_page{
+    background-color:#f5f8fd;
+}
+.progress{
+    height:10px;
+    background-color:#dce8f8;
+    border-radius: 0px;
+}
+.progress-bar{
+    background-color:#149DDD;   
+}
+.val,.skill{
+    font-style: normal;
+    font-weight: 600;
+}
+.resume_name,.education_name{
+    font-family:'Poppins',sans-serif;
+    font-weight: 800;
+    font-size:18px;
+}
+.resume_text{
+    font-style:italic;
+}
+.summary_title{
+    font-size:26px;
+}
+.summary_1,.summary_education,.pe_section{
+    border-left: 2px #173b6c solid;
+}
+.circle_class{
+    border-color:#173b6c;
+    background-color: #fff;
+}
+.summary_list{
+    line-height:40px;
+}
+.institute_name{
+    font-style:italic;
+}
+.year{
+    background-color:#dce8f8;
+    font-weight:600;
+    font-family:'Raleway',sans-serif ;
+    font-size: 16px;
+    display:inline;
+}
+.portfolio_page{
+    background-color:#f5f8fd;
+}
+/* .nav-item{
+    height:10px !important;
+} */
+.nav-item .nav-link.active{
+    color:#149DDD !important;
+}
+.nav-item .nav-link{
+    color:#272829 !important;
+    font-weight: 500 !important;
+    border:0px;
+    border-right:1px solid #0000001e;
+}
+.no_border{
+    border-right:0px !important;
+}
+.portfolio_nav_container{
+    justify-content: center;
+    border:2px; 
+    background-color: white;
+    width:30%;
+    height:267px;
+    margin:1em;
+}
+.tab_col1{
+    background-image: url("Images/portfolio-1.jpg");
+    background-position: center;
+    width:30%;
+    height:267px;
+    margin:1em;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.tab_col2{
+    background-image: url("Images/portfolio-2.jpg");
+    background-position: center;
+    width:30%;
+    height:267px;
+    margin:1em;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.tab_col3{
+    background-image: url("Images/portfolio-3.jpg");
+    background-position: center;
+    width:30%;
+    height:267px;
+    margin:1em;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.tab_col4{
+    background-image: url("Images/portfolio-4.jpg");
+    background-position: center;
+    width:30%;
+    height:267px;
+    margin:1em;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.tab_col5{
+    background-image: url("Images/portfolio-5.jpg");
+    background-position: center;
+    width:30%;
+    height:267px;
+    margin:1em;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.tab_col6{
+    background-image: url("Images/portfolio-6.jpg");
+    background-position: center;
+    width:30%;
+    height:267px;
+    margin:1em;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.tab_col7{
+    background-image: url("Images/portfolio-7.jpg");
+    background-position: center;
+    width:30%;
+    height:267px;
+    margin:1em;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.tab_col8{
+    background-image: url("Images/portfolio-8.jpg");
+    background-position: center;
+    width:30%;
+    height:267px;
+    margin:1em;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.tab_col9{
+    background-image: url("Images/portfolio-9.jpg");
+    background-position: center;
+    width:30%;
+    height:267px;
+    margin:1em;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.tabs_icons{
+    visibility: hidden;
+    transform: scaleY(0);
+    width:100%;
+    bottom:0%;
+    background-color: #149DDD;
+    /* opacity:0.8;  */
+    left:0%;
+    transform-origin: bottom;
+    transition: transform 1s;
+    padding:0.5em;
+}
+.tab_col1:hover,.tab_col2:hover,.tab_col3:hover,.tab_col4:hover,.tab_col5:hover,.tab_col6:hover,.tab_col7:hover,.tab_col8:hover,.tab_col9:hover{
+    /* background-color:rgba(255, 255, 255, 0.24); */
+    opacity: 0.7;
+}
+.tab_col1:hover .tabs_icons,.tab_col2:hover .tabs_icons,.tab_col3:hover .tabs_icons,.tab_col4:hover .tabs_icons,.tab_col5:hover .tabs_icons,.tab_col6:hover .tabs_icons,.tab_col7:hover .tabs_icons,.tab_col8:hover .tabs_icons,.tab_col9:hover .tabs_icons {
+    visibility: visible;
+    transform: scale(1,1);
+}
+.services_icon i{
+    background-color: #149DDD;
+    font-size:24px;
+    padding:0.5em 0.6em;
+    border:1px solid #149DDD;
+    color:#fff;
+}
+.services_flex_main_text{
+    font-size:14px;
+}
+.services_flex1:hover i{
+    background-color:transparent;
+    color:#149DDD;
+    border:1px solid #149DDD;
+    transition: 0.7s;
+}
+.services_flex_heading{
+    font-size:18px;
+    font-family:'Raleway',sans-serif;
+    font-weight: 600;
+}
+.services_flex1:hover .services_flex_heading{
+    color:#149DDD;
+}
+.text_cc{
+    font-style: italic;
+    background-color: white;
+    box-shadow: 0px 2px 15px rgb(0 0 0 / 10%);
+}
+.text_cc i{
+    color:#dce8f8;
+}
+.text_cc+img{
+    width:90px;
+    height: 90px;
+    text-align: center;
+}
+.carousel-indicators [data-bs-target]{
+    border:1px solid #149DDD;
+    /* border-radius: 50%;
+    padding:7px 0px; */
+}
+.carousel-indicators .active{
+    background-color: #149DDD;
+}
+.address_icon i{
+    background-color: #dff3fc;
+    padding:1em 1.1em;
+    color:#149DDD; 
+    border:1px solid #dff3fc
+}
+.address_icon_flex:hover i{
+    background-color: #149DDD;
+    color:#fff;
+    border:1px solid #149DDD;
+    transition: 0.7s;
+}
+.address_title{
+    font-family:'Raleway',sans-serif;
+    font-weight: 800;
+}
+.address_location_name{
+    color:#173b6c;
+}
+.address_flex,.form_flex{
+    background-color: #fff;
+    box-shadow: 0 0 24px 0 rgb(0 0 0 / 12%);
+    padding:30px;
+}
+.map iframe{
+    height: 290px;
+}
+.form_button{
+        color:#fff;
+        background-color: #149DDD;    
+        border:0px;
+}
+.form_button:hover{
+    background-color: rgba(20, 157, 221, 0.651);
+}
+.form_button:active{
+    box-shadow: none;
+}
+.member_name_1{
+    font-size:18px;
+    font-family: 'Raleway',sans-serif;
+}
+
+@media screen and (max-width:576px) {
+    .homepage{
+        background:url("Images/hero-bg.jpg") no-repeat;
+        background-position-x: center;
+        background-size:cover;
+        height:100%;
+    }
+     .hp_name{
+        font-size:28px;
+    }
+    .main_container{
+        width:100%;
+        position: relative;
+        left:0%;  
+    }
+    .portfolio_nav_container{
+        width:95% !important;
+    }
+    .tab_col1,.tab_col2,.tab_col3,.tab_col4,.tab_col5,.tab_col6,.tab_col7,.tab_col8,.tab_col9{
+        width:95%;
+        margin-left:auto;
+        margin-right: auto;
+        margin-top:0.5em
+    }
+    .map iframe{
+    height: 400px;
+    }
+    
+}
+@media screen and (min-width:577px) and (max-width:767px) {
+   .main_container{
+    width:100%; 
+    position: relative;
+    left:0%;
+    }
+    .tab_col1,.tab_col2,.tab_col3,.tab_col4,.tab_col5,.tab_col6,.tab_col7,.tab_col8,.tab_col9{
+        width:95%;
+        margin-left:auto;
+        margin-right: auto;
+        margin-top:0.5em
+    }
+    .map iframe{
+    height: 450px;
+    }
+    .portfolio_nav_container{
+        width:50% !important;
+    }
+    .tab_col1,.tab_col2,.tab_col3,.tab_col4.tab_col5,.tab_col6,.tab_col7,.tab_col8,.tab_col9{
+        background-size: cover;
+    }
+}
+@media screen and (min-width:768px) and (max-width:991px) {
+    .main_container{
+    width:100%; 
+    position: relative; 
+    left:0%;
+    }
+    .tab_col1,.tab_col2,.tab_col3,.tab_col4,.tab_col5,.tab_col6,.tab_col7,.tab_col8,.tab_col9{
+        width:48%;
+        margin-left:auto;
+        margin-right: auto;
+        margin-top:0.5em
+    }
+    .tab_col9{
+        margin-left: 0.5em;
+    }
+    #Page2 .tab_col6{
+        margin-left: 0.5em;
+    }
+    #Page3 .tab_col8{
+        margin-left: 0.5em;
+    }
+}
+@media screen and (min-width:992px) and (max-width:1199px) {
+    .main_container{
+    width:100%;
+    position: relative;  
+    left:0%;
+    }
+}
+@media screen and (min-width:1200px) and (max-width:1399px) {
+    
+}
